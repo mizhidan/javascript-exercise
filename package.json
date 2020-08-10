@@ -36,5 +36,6 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "repository": "true"
 }
