@@ -6,6 +6,8 @@ function chooseMultiplesOfThree(collection) {
 
 function chooseNoRepeatNumber(collection) {
   // TODO 2: 在这里写实现代码
+  const result = Array.from(new Set(collection));
+  return result;
 }
 
 export { chooseMultiplesOfThree, chooseNoRepeatNumber };
