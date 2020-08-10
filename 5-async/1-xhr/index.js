@@ -13,7 +13,7 @@ function fetchData(url, successCallback, errorCallback) {
   xhr.onerror = () => {
     errorCallback(new Error(xhr.statusText));
   };
-  xhr.send(null);
+  xhr.send();
   // end -->
 }
 
